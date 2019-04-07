@@ -6,7 +6,7 @@ import java.util.List;
 public class BankAccountApp {
     public static void main(String [] args){
         List<Account> accounts = new LinkedList<Account>();
-        String file = "BankApplication/NewBankAccounts.csv";
+        String file = "BankApplication/Accounts.csv";
         List<String[]> newAccounts = csv.read(file);
         /*
         Checking checkacc1 = new Checking("Tom Wilson", "213213212", 1500);
